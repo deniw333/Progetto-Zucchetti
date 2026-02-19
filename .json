@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "nome": "Il Museo della Stampa Andrea Schiavi",
+    "descrizione": "Espone macchinari storici, opere e libri sulla storia della stampa, con laboratori e mostre temporanee a ingresso gratuito.",
+    "indirizzo": "Via della Costa, 4, 26900 Lodi (LO)",
+    "orari": "Lun–Ven 09:30–12:30; Sab 10:00–12:30 & 15:00–17:30; Dom chiuso"
+  },
+  {
+    "id": 2,
+    "nome": "Il Museo Ettore Archinti di Lodi",
+    "descrizione": "Espone opere di pittura, scultura, arte sacra e contemporanea, con collezione permanente e mostre temporanee dedicate alla cultura del territorio.",
+    "indirizzo": "Viale Pavia, 28, 26900 Lodi (LO)",
+    "orari": "Lun–Ven 10:00–12:00 & 14:30–17:00"
+  },
+  {
+    "id": 3,
+    "nome": "Il Museo d’Arte Contemporanea Folligeniali di Lodi",
+    "descrizione": "Ospita opere moderne e contemporanee, con mostre temporanee, eventi e attività dedicate alle nuove tendenze artistiche.",
+    "indirizzo": "Via della Marescalca, 2, 26900 Lodi (LO)",
+    "orari": "Lun–Ven 10:00–12:00 & 14:30–17:00"
+  },
+  {
+    "id": 4,
+    "nome": "Il Paolo Gorini Museum di Lodi",
+    "descrizione": "Dedicato allo scienziato Paolo Gorini, presenta strumenti, modelli e attività didattiche legate alle sue ricerche scientifiche e tecnologiche.",
+    "indirizzo": "Via Agostino Bassi, 1, 26900 Lodi (LO)",
+    "orari": "Su prenotazione o aperture specifiche"
+  },
+  {
+    "id": 5,
+    "nome": "Il Museo dello Strumento Musicale e della Musica di Lodi",
+    "descrizione": "Espone strumenti, partiture e documenti sulla storia musicale e offre laboratori, concerti e attività didattiche per tutte le età.",
+    "indirizzo": "Via Carlo Besana, 8, 26900 Lodi (LO)",
+    "orari": "Visite e laboratori su prenotazione"
+  },
+  {
+    "id": 6,
+    "nome": "Il Museo del Tesoro dell'Incoronata di Lodi",
+    "descrizione": "Conserva oggetti sacri, opere d’arte religiosa e paramenti liturgici legati alla Chiesa dell’Incoronata, con mostre e attività educative.",
+    "indirizzo": "Via Incoronata, 23, 26900 Lodi (LO)",
+    "orari": "Generalmente domenica 15:00–18:00 e in occasioni programmate; conferma consigliata"
+  },
+  {
+    "id": 7,
+    "nome": "Il Museo Diocesano d’Arte Sacra di Lodi",
+    "descrizione": "Espone opere religiose dal medioevo all’arte contemporanea, tra dipinti, sculture e paramenti liturgici, raccontando la storia della devozione locale.",
+    "indirizzo": "Via Cavour, 31, 26900 Lodi (LO)",
+    "orari": "Visite collegate alla Cattedrale o su prenotazione"
+  },
+  {
+    "id": 8,
+    "nome": "La Cattedrale di Lodi",
+    "descrizione": "Dedicata alla Natività della Beata Vergine Maria, unisce stili romanico e gotico e ospita affreschi, mosaici e opere di arte sacra.",
+    "indirizzo": "Piazza della Vittoria, 4/10, 26900 Lodi (LO)",
+    "orari": "Aperta gran parte del giorno; visite circa 09:30–18:00 (variabile in base alle messe)"
+  },
+  {
+    "id": 9,
+    "nome": "Il Tempio Civico della Beata Vergine Incoronata di Lodi",
+    "descrizione": "Capolavoro barocco con facciata imponente e interni decorati, dedicato alla patrona della città e sede di celebrazioni religiose.",
+    "indirizzo": "Via Incoronata, 23, 26900 Lodi (LO)",
+    "orari": "Lun 09:30–12:30; Mar–Ven 09:30–12:30 & 15:30–18:00; Sab–Dom 09:30–12:30 & 15:00–18:00"
+  },
+  {
+    "id": 10,
+    "nome": "La Chiesa di San Francesco di Lodi",
+    "descrizione": "In stile gotico, ospita navate, vetrate e affreschi dedicati a San Francesco; luogo di culto e attività culturali francescane.",
+    "indirizzo": "Piazza Ospitale, 26900 Lodi (LO)",
+    "orari": "Aperta principalmente per attività religiose; visite nelle ore diurne"
+  },
+  {
+    "id": 11,
+    "nome": "La Chiesa di Santa Maria Maddalena di Lodi",
+    "descrizione": "In stile barocco, presenta facciata e interni decorati con affreschi e stucchi; luogo di culto ed eventi culturali.",
+    "indirizzo": "Via del Tempio, 3, 26900 Lodi (LO)",
+    "orari": "Generalmente aperta durante il giorno; varia in base alle celebrazioni"
+  },
+  {
+    "id": 12,
+    "nome": "La Chiesa di Sant’Agnese di Lodi",
+    "descrizione": "In stile barocco e neoclassico, ospita affreschi e sculture sulla vita della santa; luogo di culto e preghiera.",
+    "indirizzo": "26900 Lodi (LO)",
+    "orari": "Generalmente aperta durante la giornata"
+  },
+  {
+    "id": 13,
+    "nome": "La Chiesa di Santa Maria del Sole di Lodi",
+    "descrizione": "In stile gotico, ospita affreschi, vetrate e sculture dedicate alla Madonna; luogo di culto e celebrazioni religiose.",
+    "indirizzo": "Via Santa Maria del Sole, 18, 26900 Lodi (LO)",
+    "orari": "Visibile nelle ore diurne; orari non sempre pubblici"
+  },
+  {
+    "id": 14,
+    "nome": "La Chiesa di Sant’Agnese di Lodi (Corso Umberto I)",
+    "descrizione": "In stile barocco e neoclassico, ospita affreschi e sculture sulla vita della santa; luogo di culto e preghiera.",
+    "indirizzo": "Corso Umberto I, 26900 Lodi (LO)",
+    "orari": "Apertura diurna con variazioni in base alle funzioni religiose"
+  },
+  {
+    "id": 15,
+    "nome": "La Chiesa di Santa Maria del Sole di Lodi",
+    "descrizione": "In stile gotico, ospita affreschi, vetrate e sculture dedicate alla Madonna; luogo di culto e celebrazioni religiose.",
+    "indirizzo": "Via Santa Maria del Sole, 18, 26900 Lodi (LO)",
+    "orari": "Aperta normalmente nelle ore diurne"
+  },
+  {
+    "id": 16,
+    "nome": "La Chiesa di San Filippo Neri di Lodi",
+    "descrizione": "In stile barocco, ospita affreschi e sculture sulla vita del santo; luogo di culto e celebrazioni liturgiche.",
+    "indirizzo": "Corso Umberto I, 26900 Lodi (LO)",
+    "orari": "Generalmente 09:00–12:00; Domenica fino alle 13:00"
+  },
+  {
+    "id": 17,
+    "nome": "Il centro di Lodi",
+    "descrizione": "Cuore storico e culturale della città, offre piazze, monumenti, musei, negozi e caffè in un’atmosfera vivace e percorribile a piedi.",
+    "indirizzo": "Piazza della Vittoria, 26900 Lodi (LO)",
+    "orari": "Area pedonale sempre accessibile; negozi circa 09:00–12:30 & 15:30–19:30"
+  },
+  {
+    "id": 18,
+    "nome": "Lodi Hotel",
+    "descrizione": "Moderno e ben attrezzato, offre comfort e servizi per viaggi di piacere o lavoro.",
+    "indirizzo": "Via Solferino, 11, 26900 Lodi (LO)",
+    "orari": "Check-in dalle 14:00; Check-out entro 10:00–11:00"
+  },
+  {
+    "id": 19,
+    "nome": "Trattoria Torretta",
+    "descrizione": "Trattoria tipica italiana con cucina lodigiana e lombarda tradizionale.",
+    "indirizzo": "Piazza Angelo Maria Sommariva, 4, 26900 Lodi (LO)",
+    "orari": "Lun 12:00–14:00 & 19:00–22:00; Mar 12:00–14:00 & 19:00–22:00; Mer 12:00–14:00 & 19:00–22:00; Gio chiuso; Ven 12:00–14:00 & 19:00–22:00; Sab 12:00–14:00 & 19:00–22:00; Dom 12:00–14:00 & 19:00–22:00"
+  }
+]
