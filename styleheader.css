@@ -1,66 +1,120 @@
-/* FONT POPPINS */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-/* RESET SOLO HEADER */
-.site-header,
-.site-header * {
+/* =========================
+   BASE
+========================= */
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-/* HEADER */
+/* =========================
+   HEADER
+========================= */
 .site-header {
     background-color: #2949B4;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-/* BARRA HEADER PIÙ ALTA */
 .header-bar {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 25px 40px;  /* più spazio verticale e orizzontale */
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* LOGO PIÙ GRANDE */
+/* LOGO */
 .logo-link {
     display: flex;
     align-items: center;
 }
 
 .logo-img {
-    height: 90px;  
+    height: 90px;
     width: auto;
+    transition: transform 0.3s ease;
 }
 
-.nav-menu ul {
-    list-style: none;
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
+/* NAVBAR */
+nav > ul {
     display: flex;
-    gap: 40px;  
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 2rem;
 }
 
-.nav-menu a {
+nav > ul > li > a {
     text-decoration: none;
     color: #ffffff;
+    padding-block: 1rem;
+    padding-inline: 2rem;
     font-weight: 500;
-    font-size: 18px;  
-    position: relative;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
-.nav-menu a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 0;
-    height: 2px;
-    background-color: #ffffff;
-    transition: width 0.3s ease;
+/* ACTIVE / FOCUS */
+nav > ul > li.active > a,
+nav > ul > li > a:focus {
+    background-color: #1f378c;
 }
 
-.nav-menu a:hover::after {
-    width: 100%;
+/* HOVER */
+nav > ul > li > a:hover {
+    background-color: #1a2e80;
+}
+
+/* HAMBURGER */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        position: fixed;
+        top: 90px; /* sotto header */
+        right: 0;
+        background-color: #2949B4;
+        width: 200px;
+        height: calc(100vh - 90px);
+        display: none;
+        flex-direction: column;
+        padding-top: 1rem;
+        z-index: 9999;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    nav > ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav > ul > li > a {
+        padding: 1rem 2rem;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
 }
