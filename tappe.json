@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "nome": "Il Museo della Stampa Andrea Schiavi",
+    "descrizione": "Espone macchinari storici, opere e libri sulla storia della stampa, con laboratori e mostre temporanee a ingresso gratuito.",
+    "indirizzo": "Via della Costa, 4, 26900 Lodi (LO)",
+    "orari": "Lun–Ven 09:30–12:30; Sab 10:00–12:30 & 15:00–17:30; Dom chiuso",
+    "lat":45.3099,
+    "lon":9.5039
+  }
+]
