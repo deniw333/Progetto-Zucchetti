@@ -7,5 +7,144 @@
     "orari": "Lun–Ven 09:30–12:30; Sab 10:00–12:30 & 15:00–17:30; Dom chiuso",
     "lat":45.3099,
     "lon":9.5039
+  },
+  {
+    "id": 1,
+    "nome": "Centro Storico di Lodi",
+    "descrizione": "Passeggiata tra le vie storiche della città, ammirando piazze, monumenti e scorci caratteristici come Piazza della Vittoria, Piazza Broletto e il Duomo di Lodi.",
+    "indirizzo": "Centro storico, 26900 Lodi (LO)",
+    "orari": "Sempre aperto",
+    "lat": 45.3147,
+    "lon": 9.5037
+  },
+  {
+    "id": 2,
+    "nome": "Ristorante Fuori Modena",
+    "descrizione": "Pranzo tipico lodigiano con piatti locali come risotto con salame o gorgonzola DOP.",
+    "indirizzo": "Via F.lli Cairoli, 5, 26900 Lodi (LO)",
+    "orari": "12:00–14:30",
+    "lat": 45.3125,
+    "lon": 9.5041
+  },
+  {
+    "id": 3,
+    "nome": "Museo della Stampa d'Arte Andrea Schiavi",
+    "descrizione": "Espone macchinari storici, opere e libri sulla storia della stampa, con laboratori e mostre temporanee a ingresso gratuito.",
+    "indirizzo": "Via della Costa, 4, 26900 Lodi (LO)",
+    "orari": "Lun–Ven 09:30–12:30; Sab 10:00–12:30 & 15:00–17:30; Dom chiuso",
+    "lat": 45.3099,
+    "lon": 9.5039
+  },
+  {
+    "id": 4,
+    "nome": "Pizzeria Armandino",
+    "descrizione": "Cena con pizza tradizionale italiana in ambiente informale.",
+    "indirizzo": "Via dei Mille, 12, 26900 Lodi (LO)",
+    "orari": "18:30–23:00",
+    "lat": 45.3112,
+    "lon": 9.5055
+  },
+  {
+    "id": 5,
+    "nome": "Museo Ettore Archinti",
+    "descrizione": "Museo dedicato all'arte e alla storia locale, con collezioni permanenti e mostre temporanee.",
+    "indirizzo": "Via Cavour, 10, 26900 Lodi (LO)",
+    "orari": "Mar–Dom 10:00–18:00; Lun chiuso",
+    "lat": 45.3128,
+    "lon": 9.5033
+  },
+  {
+    "id": 6,
+    "nome": "901 Bistrot",
+    "descrizione": "Ristorante moderno con cucina italiana e internazionale, ideale per pranzo elegante o veloce.",
+    "indirizzo": "Via Emilia, 901, 26900 Lodi (LO)",
+    "orari": "12:00–14:30; 19:00–22:30",
+    "lat": 45.3115,
+    "lon": 9.5040
+  },
+  {
+    "id": 7,
+    "nome": "Museo d'Arte Contemporanea Folligeniali",
+    "descrizione": "Collezione di arte contemporanea con esposizioni temporanee e programmi culturali per visitatori di tutte le età.",
+    "indirizzo": "Via Roma, 5, 26900 Lodi (LO)",
+    "orari": "Mer–Dom 10:00–18:00; Lun–Mar chiuso",
+    "lat": 45.3109,
+    "lon": 9.5035
+  },
+  {
+    "id": 8,
+    "nome": "Ristorante Alta Marea",
+    "descrizione": "Ristorante elegante con piatti di pesce e cucina mediterranea, ambiente raffinato per cena.",
+    "indirizzo": "Via San Bassiano, 15, 26900 Lodi (LO)",
+    "orari": "19:00–23:00",
+    "lat": 45.3095,
+    "lon": 9.5042
+  },
+  {
+    "giorno2":"d"
+  },
+  {
+    "id": 9,
+    "nome": "Museo Paolo Gorini",
+    "descrizione": "Museo dedicato a Paolo Gorini, esibisce strumenti scientifici e studi sulla conservazione e la scienza applicata.",
+    "indirizzo": "Via S. Giovanni, 15, 26900 Lodi (LO)",
+    "orari": "Mar–Dom 10:00–18:00; Lun chiuso",
+    "lat": 45.3105,
+    "lon": 9.5030
+  },
+  {
+    "id": 10,
+    "nome": "Ristorante La Petite Mondina",
+    "descrizione": "Ristorante con cucina tipica locale e piatti italiani tradizionali.",
+    "indirizzo": "Via XX Settembre, 10, 26900 Lodi (LO)",
+    "orari": "12:00–14:30; 19:00–22:30",
+    "lat": 45.3120,
+    "lon": 9.5042
+  },
+  {
+    "id": 11,
+    "nome": "Museo dello Strumento Musicale",
+    "descrizione": "Collezione di strumenti musicali antichi e moderni, con laboratori e attività didattiche.",
+    "indirizzo": "Via F.lli Cairoli, 7, 26900 Lodi (LO)",
+    "orari": "Mer–Dom 10:00–17:00; Lun–Mar chiuso",
+    "lat": 45.3112,
+    "lon": 9.5050
+  },
+  {
+    "id": 12,
+    "nome": "Ristorante Al Sazio",
+    "descrizione": "Ristorante con piatti italiani e pizza, ambiente informale.",
+    "indirizzo": "Via Emilia, 20, 26900 Lodi (LO)",
+    "orari": "12:00–14:30; 19:00–22:30",
+    "lat": 45.3098,
+    "lon": 9.5028
+  },
+  {
+    "id": 13,
+    "nome": "Centro Storico di Lodi",
+    "descrizione": "Passeggiata tra le vie storiche, con Piazza della Vittoria, Piazza Broletto e il Duomo di Lodi.",
+    "indirizzo": "Centro storico, 26900 Lodi (LO)",
+    "orari": "Sempre aperto",
+    "lat": 45.3147,
+    "lon": 9.5037
+  },
+  {
+    "id": 15,
+    "nome": "Museo Diocesano d’Arte Sacra",
+    "descrizione": "Museo con collezione di arte sacra, sculture, dipinti e oggetti religiosi storici.",
+    "indirizzo": "Via Mazzini, 2, 26900 Lodi (LO)",
+    "orari": "Mar–Dom 10:00–17:00; Lun chiuso",
+    "lat": 45.3140,
+    "lon": 9.5025
+  },
+  {
+    "id": 16,
+    "nome": "Bar Cavour",
+    "descrizione": "Locale per cena informale o aperitivo, con piatti veloci e bevande.",
+    "indirizzo": "Piazza Cavour, 5, 26900 Lodi (LO)",
+    "orari": "08:00–23:00",
+    "lat": 45.3135,
+    "lon": 9.5048
   }
-]
+  ]
+
