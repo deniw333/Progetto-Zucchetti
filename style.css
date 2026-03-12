@@ -58,3 +58,21 @@ select {
 #mappa{
     height: 75vh;
 }
+#Bigmap{
+    display:flex;
+
+}
+#Bigmap > *{
+    margin: 2rem;
+    
+}
+
+#mappa1{
+    height:75vh;
+    width:50%;
+}
+
+#mappa2{
+    height:75vh;
+    width:50%;
+}

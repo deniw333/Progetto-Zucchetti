@@ -5,8 +5,9 @@
     "descrizione": "Espone macchinari storici, opere e libri sulla storia della stampa, con laboratori e mostre temporanee a ingresso gratuito.",
     "indirizzo": "Via della Costa, 4, 26900 Lodi (LO)",
     "orari": "Lun–Ven 09:30–12:30; Sab 10:00–12:30 & 15:00–17:30; Dom chiuso",
-    "lat":45.3099,
-    "lon":9.5039
+    "lat": 45.3099,
+    "lon": 9.5039,
+    "img": "1.png"
   },
   {
     "id": 1,
@@ -15,7 +16,8 @@
     "indirizzo": "Centro storico, 26900 Lodi (LO)",
     "orari": "Sempre aperto",
     "lat": 45.3147,
-    "lon": 9.5037
+    "lon": 9.5037,
+    "img": "img/centro_storico.jpg"
   },
   {
     "id": 2,
@@ -24,7 +26,8 @@
     "indirizzo": "Via F.lli Cairoli, 5, 26900 Lodi (LO)",
     "orari": "12:00–14:30",
     "lat": 45.3125,
-    "lon": 9.5041
+    "lon": 9.5041,
+    "img": "img/fuori_modena.jpg"
   },
   {
     "id": 3,
@@ -33,7 +36,8 @@
     "indirizzo": "Via della Costa, 4, 26900 Lodi (LO)",
     "orari": "Lun–Ven 09:30–12:30; Sab 10:00–12:30 & 15:00–17:30; Dom chiuso",
     "lat": 45.3099,
-    "lon": 9.5039
+    "lon": 9.5039,
+    "img": "img/museo_schiavi_arte.jpg"
   },
   {
     "id": 4,
@@ -42,7 +46,8 @@
     "indirizzo": "Via dei Mille, 12, 26900 Lodi (LO)",
     "orari": "18:30–23:00",
     "lat": 45.3112,
-    "lon": 9.5055
+    "lon": 9.5055,
+    "img": "img/pizzeria_armandino.jpg"
   },
   {
     "id": 5,
@@ -51,7 +56,8 @@
     "indirizzo": "Via Cavour, 10, 26900 Lodi (LO)",
     "orari": "Mar–Dom 10:00–18:00; Lun chiuso",
     "lat": 45.3128,
-    "lon": 9.5033
+    "lon": 9.5033,
+    "img": "img/museo_archinti.jpg"
   },
   {
     "id": 6,
@@ -60,7 +66,8 @@
     "indirizzo": "Via Emilia, 901, 26900 Lodi (LO)",
     "orari": "12:00–14:30; 19:00–22:30",
     "lat": 45.3115,
-    "lon": 9.5040
+    "lon": 9.5040,
+    "img": "img/bistrot_901.jpg"
   },
   {
     "id": 7,
@@ -69,7 +76,8 @@
     "indirizzo": "Via Roma, 5, 26900 Lodi (LO)",
     "orari": "Mer–Dom 10:00–18:00; Lun–Mar chiuso",
     "lat": 45.3109,
-    "lon": 9.5035
+    "lon": 9.5035,
+    "img": "img/museo_folligeniali.jpg"
   },
   {
     "id": 8,
@@ -78,10 +86,11 @@
     "indirizzo": "Via San Bassiano, 15, 26900 Lodi (LO)",
     "orari": "19:00–23:00",
     "lat": 45.3095,
-    "lon": 9.5042
+    "lon": 9.5042,
+    "img": "img/alta_marea.jpg"
   },
   {
-    "giorno2":"d"
+    "giorno2": "d"
   },
   {
     "id": 9,
@@ -90,7 +99,8 @@
     "indirizzo": "Via S. Giovanni, 15, 26900 Lodi (LO)",
     "orari": "Mar–Dom 10:00–18:00; Lun chiuso",
     "lat": 45.3105,
-    "lon": 9.5030
+    "lon": 9.5030,
+    "img": "img/museo_gorini.jpg"
   },
   {
     "id": 10,
@@ -99,7 +109,8 @@
     "indirizzo": "Via XX Settembre, 10, 26900 Lodi (LO)",
     "orari": "12:00–14:30; 19:00–22:30",
     "lat": 45.3120,
-    "lon": 9.5042
+    "lon": 9.5042,
+    "img": "img/petite_mondina.jpg"
   },
   {
     "id": 11,
@@ -108,7 +119,8 @@
     "indirizzo": "Via F.lli Cairoli, 7, 26900 Lodi (LO)",
     "orari": "Mer–Dom 10:00–17:00; Lun–Mar chiuso",
     "lat": 45.3112,
-    "lon": 9.5050
+    "lon": 9.5050,
+    "img": "img/museo_strumenti.jpg"
   },
   {
     "id": 12,
@@ -117,7 +129,8 @@
     "indirizzo": "Via Emilia, 20, 26900 Lodi (LO)",
     "orari": "12:00–14:30; 19:00–22:30",
     "lat": 45.3098,
-    "lon": 9.5028
+    "lon": 9.5028,
+    "img": "img/al_sazio.jpg"
   },
   {
     "id": 13,
@@ -126,7 +139,8 @@
     "indirizzo": "Centro storico, 26900 Lodi (LO)",
     "orari": "Sempre aperto",
     "lat": 45.3147,
-    "lon": 9.5037
+    "lon": 9.5037,
+    "img": "img/centro_storico2.jpg"
   },
   {
     "id": 15,
@@ -135,7 +149,8 @@
     "indirizzo": "Via Mazzini, 2, 26900 Lodi (LO)",
     "orari": "Mar–Dom 10:00–17:00; Lun chiuso",
     "lat": 45.3140,
-    "lon": 9.5025
+    "lon": 9.5025,
+    "img": "img/museo_diocesano.jpg"
   },
   {
     "id": 16,
@@ -144,7 +159,7 @@
     "indirizzo": "Piazza Cavour, 5, 26900 Lodi (LO)",
     "orari": "08:00–23:00",
     "lat": 45.3135,
-    "lon": 9.5048
+    "lon": 9.5048,
+    "img": "img/bar_cavour.jpg"
   }
-  ]
-
+]

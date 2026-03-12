@@ -13,8 +13,14 @@
 </head>
 <body>
     <h1>Mappa di Lodi</h1>
-    <div id="mappa">
+    <div id="Bigmap">
+    
+    <div id="mappa1">
 
     </div>
+    <div id="mappa2">
+
+    </div>
+</div>
 </body>
 </html>
