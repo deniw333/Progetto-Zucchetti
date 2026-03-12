@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* MAIN */
+
+.main-content {
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* HEADER */
+
+.site-header {
+    background-color: #2949B4;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    height: 90px;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 18px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #379bc2;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.site-footer {
+    background-color: #2949B4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* BOX SEZIONI */
+
+.section-box {
+    background-color: #f4f6ff;
+    padding: 25px 20px;
+    border-left: 5px solid #2949B4;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* LISTE */
+
+ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2949B4;
+    font-size: 20px;
+    top: 0;
+}
+
+/* CONTATTI */
+
+.contact-section {
+    background-color: #e8ecff;
+    padding: 25px 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.contact-section h2 {
+    margin-top: 0;
+    color: #2949B4;
+}
+
+.contact-section p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* IMMAGINI */
+
+.section-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* HOME IMAGE */
+
+.home-image{
+    width: 420px;
+    max-width: 90%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    animation: pulse3d 2.5s infinite ease-in-out;
+    transform-style: preserve-3d;
+}
+
+/* ANIMAZIONE */
+
+@keyframes pulse3d{
+
+0%{
+transform: scale(1) rotateY(0deg);
+}
+
+50%{
+transform: scale(1.06) rotateY(6deg);
+}
+
+100%{
+transform: scale(1) rotateY(0deg);
+}
+
+}
+
+/* TITOLI */
+
+h1{
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 5px;
+}
+
+#keci{
+    color: #2949B4;
+}
+
+#baboni{
+    color: #2949B4;
+}
+
+.fontimg{
+    padding: 0%;
+    max-width: 400px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+.section-box, .contact-section {
+    padding: 20px;
+}
+
+.header-bar {
+    padding: 15px 20px;
+}
+
+.logo-img {
+    height: 65px;
+}
+
+.hamburger {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    top: 90px;
+    right: -280px;
+    width: 280px;
+    height: calc(100vh - 90px);
+    background-color: #2949B4;
+    display: flex;
+    flex-direction: column;
+    transition: right 0.3s ease;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.25);
+}
+
+nav.open {
+    right: 0;
+}
+
+nav ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    gap: 0;
+}
+
+nav ul li {
+    width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+nav ul li a:hover {
+    background-color: #1f378c;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.home-image{
+    width: 300px;
+}
+
+}
