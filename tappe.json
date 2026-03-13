@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "nome": "Il Museo della Stampa Andrea Schiavi",
+    "descrizione": "Espone macchinari storici, opere e libri sulla storia della stampa, con laboratori e mostre temporanee a ingresso gratuito.",
+    "indirizzo": "Via della Costa, 4, 26900 Lodi (LO)",
+    "orari": "Lun–Ven 09:30–12:30; Sab 10:00–12:30 & 15:00–17:30; Dom chiuso",
+    "lat":45.3099,
+    "lon":9.5039,
+    "img":"IlMuseodellaStampaAndreaSchiavi.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Castello Visconteo",
+    "descrizione": "Storico castello vicino Piazza della Vittoria",
+    "indirizzo": "Centro storico, Lodi",
+    "lat": 45.31348,
+    "lon": 9.50198,
+    "img": ""
+  },
+  {
+    "id": 3,
+    "nome": "Museo della Stampa d'Arte Andrea Schiavi",
+    "descrizione": "Museo dedicato alla storia della stampa",
+    "indirizzo": "Via della Costa 4, Lodi",
+    "lat": 45.31420,
+    "lon": 9.50500,
+    "img": ""
+  },
+  {
+    "id": 4,
+    "nome": "Museo Ettore Archinti",
+    "descrizione": "Museo con collezioni artistiche e culturali",
+    "indirizzo": "Viale Pavia 26, Lodi",
+    "lat": 45.31200,
+    "lon": 9.50450,
+    "img": "MuseoEttoreArchinti.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Museo d'Arte Contemporanea Folligeniali",
+    "descrizione": "Museo dedicato all'arte contemporanea",
+    "indirizzo": "Via Marescalca 2, Lodi",
+    "lat": 45.31190,
+    "lon": 9.50280,
+    "img": "Museod’ArteContemporaneaFolligeniali.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Ristorante Fuori Modena",
+    "descrizione": "Ristorante nel centro storico",
+    "indirizzo": "Centro storico, Lodi",
+    "lat": 45.31400,
+    "lon": 9.50280,
+    "img": "RistoranteFuoriModena.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Pizzeria Armandino",
+    "descrizione": "Pizzeria nel centro di Lodi",
+    "indirizzo": "Centro, Lodi",
+    "lat": 45.31410,
+    "lon": 9.50290,
+    "categoria": ""
+  },
+  {
+    "id": 8,
+    "nome": "901 Bistrot",
+    "descrizione": "Bistrot nel centro storico",
+    "indirizzo": "Centro storico, Lodi",
+    "lat": 45.31405,
+    "lon": 9.50300,
+    "categoria": "ristorante"
+  },
+  {
+    "id": 9,
+    "nome": "Ristorante Alta Marea",
+    "descrizione": "Ristorante nel centro storico",
+    "indirizzo": "Centro storico, Lodi",
+    "lat": 45.31410,
+    "lon": 9.50310,
+    "categoria": "ristorante"
+  },
+  {
+    "id": 10,
+    "nome": "Albergo Anelli",
+    "descrizione": "Hotel vicino al centro di Lodi",
+    "indirizzo": "Viale Cesare Vignati 7, 26900 Lodi",
+    "lat": 45.31052,
+    "lon": 9.50033,
+    "categoria": "hotel"
+  },
+  {
+    "id": 11,
+    "nome": "Museo Paolo Gorini",
+    "descrizione": "Museo dedicato allo scienziato Paolo Gorini",
+    "indirizzo": "Via Agostino Bassi 1, Lodi",
+    "lat": 45.31302,
+    "lon": 9.50370,
+    "categoria": "museo"
+  },
+  {
+    "id": 12,
+    "nome": "Museo dello Strumento Musicale e della Musica",
+    "descrizione": "Museo dedicato agli strumenti musicali",
+    "indirizzo": "Via Carlo Besana 8, Lodi",
+    "lat": 45.31429,
+    "lon": 9.50342,
+    "categoria": "museo"
+  },
+  {
+    "id": 13,
+    "nome": "La Petite Mondina",
+    "descrizione": "Ristorante zona Est/Nord-Est di Lodi",
+    "indirizzo": "Lodi",
+    "lat": 45.31550,
+    "lon": 9.51680,
+    "categoria": "ristorante"
+  },
+  {
+    "id": 14,
+    "nome": "Ristorante Al Sazio",
+    "descrizione": "Ristorante nel centro storico",
+    "indirizzo": "Centro storico, Lodi",
+    "lat": 45.31390,
+    "lon": 9.50250,
+    "categoria": "ristorante"
+  },
+  {
+    "id": 15,
+    "nome": "Centro storico di Lodi",
+    "descrizione": "Piazza della Vittoria e dintorni",
+    "indirizzo": "Centro storico, Lodi",
+    "lat": 45.31439,
+    "lon": 9.50269,
+    "categoria": "luogo"
+  },
+  {
+    "id": 16,
+    "nome": "Museo Diocesano d’Arte Sacra",
+    "descrizione": "Museo di arte religiosa",
+    "indirizzo": "Via Cavour 31, Lodi",
+    "lat": 45.31470,
+    "lon": 9.50330,
+    "categoria": "museo"
+  },
+  {
+    "id": 17,
+    "nome": "Bar Cavour",
+    "descrizione": "Bar nel centro storico",
+    "indirizzo": "Centro storico, Lodi",
+    "lat": 45.31470,
+    "lon": 9.50340,
+    "categoria": "bar"
+  }
+]

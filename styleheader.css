@@ -9,7 +9,10 @@ body {
 }
 
 /* MAIN */
-
+.percorsi-container {
+    display: flex;
+    gap: 10rem;
+}
 .main-content {
     flex: 1;
     max-width: 1200px;
@@ -156,6 +159,27 @@ ul li::before {
 
     animation: pulse3d 2.5s infinite ease-in-out;
     transform-style: preserve-3d;
+}
+#Bigmap{
+    display:flex;
+
+
+}
+#Bigmap > *{
+    margin: 2rem;
+   
+}
+
+
+#mappa1{
+    height:75vh;
+    width:50%;
+}
+
+
+#mappa2{
+    height:75vh;
+    width:50%;
 }
 
 /* ANIMAZIONE */
