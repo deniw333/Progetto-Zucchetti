@@ -17,7 +17,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <div class="header-bar">
 
 <a href="home.php" class="logo-link">
-<img src="img/png.png" alt="Fuoriclasse a Lodi" class="logo-img">
+<img src="logo-img.png" alt="Fuoriclasse a Lodi" class="logo-img">
 </a>
 
 <button class="hamburger" id="hamburger">&#9776;</button>

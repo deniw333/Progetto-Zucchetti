@@ -5,9 +5,9 @@
     "descrizione": "Espone macchinari storici, opere e libri sulla storia della stampa, con laboratori e mostre temporanee a ingresso gratuito.",
     "indirizzo": "Via della Costa, 4, 26900 Lodi (LO)",
     "orari": "Lun–Ven 09:30–12:30; Sab 10:00–12:30 & 15:00–17:30; Dom chiuso",
-    "lat":45.3099,
-    "lon":9.5039,
-    "img":"IlMuseodellaStampaAndreaSchiavi.jpg"
+    "lat": 45.3099,
+    "lon": 9.5039,
+    "img": "IlMuseodellaStampaAndreaSchiavi.jpg"
   },
   {
     "id": 2,
@@ -16,7 +16,7 @@
     "indirizzo": "Centro storico, Lodi",
     "lat": 45.31348,
     "lon": 9.50198,
-    "img": ""
+    "img": "CastelloVisconteo.jpg"
   },
   {
     "id": 3,
@@ -25,7 +25,7 @@
     "indirizzo": "Via della Costa 4, Lodi",
     "lat": 45.31420,
     "lon": 9.50500,
-    "img": ""
+    "img": "museo-della-stampa-darte-andrea-schiavi.jpg"
   },
   {
     "id": 4,
@@ -34,7 +34,7 @@
     "indirizzo": "Viale Pavia 26, Lodi",
     "lat": 45.31200,
     "lon": 9.50450,
-    "img": "MuseoEttoreArchinti.jpg"
+    "img": "archinti.jpg"
   },
   {
     "id": 5,
@@ -43,7 +43,7 @@
     "indirizzo": "Via Marescalca 2, Lodi",
     "lat": 45.31190,
     "lon": 9.50280,
-    "img": "Museod’ArteContemporaneaFolligeniali.jpg"
+    "img": "follegiali.jpg"
   },
   {
     "id": 6,
@@ -52,7 +52,7 @@
     "indirizzo": "Centro storico, Lodi",
     "lat": 45.31400,
     "lon": 9.50280,
-    "img": "RistoranteFuoriModena.jpg"
+    "img": "ristorante-fuori-modena.jpg"
   },
   {
     "id": 7,
@@ -61,7 +61,7 @@
     "indirizzo": "Centro, Lodi",
     "lat": 45.31410,
     "lon": 9.50290,
-    "categoria": ""
+    "img": "pizzeria-armandino.jpg"
   },
   {
     "id": 8,
@@ -70,7 +70,7 @@
     "indirizzo": "Centro storico, Lodi",
     "lat": 45.31405,
     "lon": 9.50300,
-    "categoria": "ristorante"
+    "img": "901-bistrot.jpg"
   },
   {
     "id": 9,
@@ -79,7 +79,7 @@
     "indirizzo": "Centro storico, Lodi",
     "lat": 45.31410,
     "lon": 9.50310,
-    "categoria": "ristorante"
+    "img": "ristorante-alta-marea.jpg"
   },
   {
     "id": 10,
@@ -88,7 +88,7 @@
     "indirizzo": "Viale Cesare Vignati 7, 26900 Lodi",
     "lat": 45.31052,
     "lon": 9.50033,
-    "categoria": "hotel"
+    "img": "albergo-anelli.jpg"
   },
   {
     "id": 11,
@@ -97,7 +97,7 @@
     "indirizzo": "Via Agostino Bassi 1, Lodi",
     "lat": 45.31302,
     "lon": 9.50370,
-    "categoria": "museo"
+    "img": "museo-paolo-gorini.jpg"
   },
   {
     "id": 12,
@@ -106,7 +106,7 @@
     "indirizzo": "Via Carlo Besana 8, Lodi",
     "lat": 45.31429,
     "lon": 9.50342,
-    "categoria": "museo"
+    "img": "museo-dello-strumento-musicale-e-della-musica.jpg"
   },
   {
     "id": 13,
@@ -115,7 +115,7 @@
     "indirizzo": "Lodi",
     "lat": 45.31550,
     "lon": 9.51680,
-    "categoria": "ristorante"
+    "img": "la-petite-mondina.jpg"
   },
   {
     "id": 14,
@@ -124,7 +124,7 @@
     "indirizzo": "Centro storico, Lodi",
     "lat": 45.31390,
     "lon": 9.50250,
-    "categoria": "ristorante"
+    "img": "ristorante-al-sazio.jpg"
   },
   {
     "id": 15,
@@ -133,7 +133,7 @@
     "indirizzo": "Centro storico, Lodi",
     "lat": 45.31439,
     "lon": 9.50269,
-    "categoria": "luogo"
+    "img": "centro-storico-di-lodi.jpg"
   },
   {
     "id": 16,
@@ -142,7 +142,7 @@
     "indirizzo": "Via Cavour 31, Lodi",
     "lat": 45.31470,
     "lon": 9.50330,
-    "categoria": "museo"
+    "img": "museo-diocesano-darte-sacra.jpg"
   },
   {
     "id": 17,
@@ -151,6 +151,6 @@
     "indirizzo": "Centro storico, Lodi",
     "lat": 45.31470,
     "lon": 9.50340,
-    "categoria": "bar"
+    "img": "bar-cavour.jpg"
   }
 ]

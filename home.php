@@ -16,7 +16,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <div class="header-bar">
 
         <a href="home.php" class="logo-link">
-            <img src="img/png.png" alt="Fuoriclasse a Lodi" class="logo-img">
+            <img src="logo-img.png" alt="Fuoriclasse a Lodi" class="logo-img">
         </a>
 
         <button class="hamburger" id="hamburger">&#9776;</button>
@@ -36,7 +36,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <main class="main-content">
    <h1 id="keci"><strong>Benvenuti su</strong></h1>
 
-   <img src="img/logo.png" width="600px" class="fontimg">
+   <img src="logo-img.png" width="600px" class="fontimg">
 
    <p id="baboni">Un viaggio insieme oltre la scuola, verso nuove scoperte</p>
 </main>
