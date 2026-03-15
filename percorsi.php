@@ -71,7 +71,7 @@ Il percorso continua con la visita al Museo Diocesano di Arte Sacra, che conserv
 
 </div>
 
-
+</main>
 <div id="Bigmap">
 
 <div id="mappa1">
@@ -81,7 +81,7 @@ Il percorso continua con la visita al Museo Diocesano di Arte Sacra, che conserv
 
 </div>
 
-</main>
+
 
 <footer class="site-footer">
 <p>&copy; <?php echo $currentYear; ?> Fuoriclasse a Lodi</p>
