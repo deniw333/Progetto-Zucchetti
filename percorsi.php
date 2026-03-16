@@ -54,31 +54,25 @@ crossorigin=""></script>
 <div class="percorso">
 <h2>Percorso Storico</h2>
 <p>Descrizione del primo percorso.</p>
-<p>Questo percorso attraversa alcuni dei luoghi culturali e gastronomici più interessanti della città di Lodi. Inizia dal Museo della Stampa Andrea Schiavi, dove è possibile scoprire la storia della tipografia e delle tecniche di stampa. Prosegue poi nel Centro storico di Lodi, il cuore della città, ricco di edifici storici, piazze e monumenti. Il percorso continua tra musei dedicati all’arte e alla cultura locale, come il Museo Ettore Archinti e il Museo d'Arte Contemporanea Folligeniali, offrendo un viaggio tra tradizione e creatività contemporanea. L’itinerario include anche diverse tappe gastronomiche, tra cui il ristorante Fuori Modena, la Pizzeria Armandino, il Bistrot 901 e il ristorante Alta Marea, dove è possibile assaporare piatti tipici e specialità della cucina italiana. Questo itinerario permette quindi di unire arte, storia e buona cucina in una piacevole visita alla città. 
+<p>Questo percorso ti permette di scoprire Lodi con una piacevole passeggiata tra le vie del centro storico, immergendoti nell'atmosfera della città. Lungo il tragitto potrai ammirare edifici storici e luoghi legati all'arte e alla tradizione locale, scoprendo la storia e la cultura del territorio. Allo stesso tempo, il percorso offre anche diverse occasioni per fermarsi e gustare piatti tipici della cucina italiana, rendendo la visita ancora più piacevole. È un itinerario perfetto per vivere la città con calma, tra cultura, storia e buon cibo.
+
 </p>
 </div>
 
 <div class="percorso">
 <h2>Percorso Artistico</h2>
 <p>Descrizione del secondo percorso.</p>
-<p>Questo secondo percorso si sviluppa nel centro della città di Lodi e combina luoghi culturali, storici e gastronomici. Parte dall’Albergo Anelli, una struttura situata vicino al centro, ideale come punto di partenza per esplorare la città. Prosegue verso il Museo Paolo Gorini, museo dedicato allo scienziato lodigiano noto per i suoi studi anatomici e scientifici. Il percorso continua con il Museo dello Strumento Musicale, dove sono esposti strumenti musicali storici che raccontano l’evoluzione della musica nel tempo.
+<p>Questo percorso ti permette di esplorare Lodi nel cuore della città, unendo cultura, storia e buon cibo. Si snoda tra musei affascinanti, come quelli dedicati alla scienza, alla musica e all'arte sacra, e luoghi storici che raccontano la vita e le tradizioni locali. Lungo il tragitto ci sono anche diverse soste gastronomiche, perfette per assaporare piatti tipici italiani, e momenti di relax in caffè o bar dove fermarsi a godersi l'atmosfera della città. È un itinerario che invita a passeggiare con calma, scoprire storie interessanti e lasciarsi conquistare dai sapori e dai colori di Lodi.
 
-L’itinerario include anche alcune tappe gastronomiche, come il La Petite Mondina e il Al Sazio, ristoranti dove è possibile assaporare piatti della tradizione italiana. Successivamente si raggiunge il Centro storico di Lodi, ricco di monumenti, palazzi storici e piazze caratteristiche.
-
-Il percorso continua con la visita al Museo Diocesano di Arte Sacra, che conserva opere religiose e testimonianze artistiche della storia ecclesiastica del territorio. L’ultima tappa è il Bar Cavour, un luogo ideale per una pausa o un aperitivo prima di concludere il percorso. 
 </p>
 </div>
 
 </div>
-
 </main>
+
 <div id="Bigmap">
-
-<div id="mappa1">
-</div>
-
-<div id="mappa2"></div>
-
+    <div id="mappa1"></div>
+    <div id="mappa2"></div>
 </div>
 
 
