@@ -254,12 +254,20 @@ p{
     margin-top: 5px;
 }
 
-#keci{
+#keci {
     color: #2949B4;
+    font-size: xx-large;
+    font-weight: bold;
+     font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0.1em;
 }
 
 #baboni{
     color: #2949B4;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .fontimg{
