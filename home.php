@@ -34,10 +34,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 </header>
 
 <main class="main-content">
-   <h1 id="keci"><strong>Benvenuti su</strong></h1>
+   <h1 id="keci">Benvenuti su</h1>
 
-   <img src="logo-img.png" width="600px" class="fontimg">
-
+   <img src="logoN.png" width="600px" class="fontimg">
    <p id="baboni">Un viaggio insieme oltre la scuola, verso nuove scoperte</p>
 </main>
 
