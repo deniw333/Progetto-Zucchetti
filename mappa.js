@@ -26,26 +26,52 @@ xhr.addEventListener("load", () => {
 //mappa 1
 // cicli 
 const wayPoints = [];
+const fantastici4 = L.icon({
+    iconUrl:"marcatore.png",
+    iconSize:[70,70]
+})
 for (let i= 0; i<9; i++){
    
-    let marker =L.marker([dati[i].lat,dati[i].lon]).addTo(mappa1);
-    marker.bindPopup( "<img src='" + dati[i].img + "' style='width:200px;'><h3>" + dati[i].nome + "</h3><p>" + dati[i].descrizione + "</p><p><strong>Indirizzo:</strong> " + dati[i].indirizzo + "</p><p><strong>Orari:</strong> " + dati[i].orari + "</p>");
+    /* let marker =L.marker([dati[i].lat,dati[i].lon]).addTo(mappa1);
+    marker.bindPopup( "<img src='" + dati[i].img + "' style='width:200px;'><h3>" + dati[i].nome + "</h3><p>" + dati[i].descrizione + "</p><p><strong>Indirizzo:</strong> " + dati[i].indirizzo + "</p><p><strong>Orari:</strong> " + dati[i].orari + "</p>"); */
     wayPoints.push(L.latLng(dati[i].lat, dati[i].lon));
     /* linea.push([dati[i].lat, dati[i].lon]) */
 }
 L.Routing.control({
     waypoints: wayPoints,
-    language:"it"
+    language:"it",
+    createMarker: function() {return false}
 }).addTo(mappa1)
+
+for(let i=0;i<9;i++) {
+    let marker =L.marker([dati[i].lat,dati[i].lon],{icon:fantastici4}).addTo(mappa1);
+    marker.bindPopup( "<img src='" + dati[i].img + "' style='width:200px;'><h3>" + dati[i].nome + "</h3><p>" + dati[i].descrizione + "</p><p><strong>Indirizzo:</strong> " + dati[i].indirizzo + "</p><p><strong>Orari:</strong> " + dati[i].orari + "</p>");
+}
 
 /* L.polyline(linea, { color: 'red' }).addTo(mappa1); */
 
 for (let i= 9; i<16; i++){
-     let marker =L.marker([dati[i].lat,dati[i].lon]).addTo(mappa2);
+   
+   /*  let marker =L.marker([dati[i].lat,dati[i].lon]).addTo(mappa2);
     marker.bindPopup( "<img src='" + dati[i].img + "' style='width:200px;'><h3>" + dati[i].nome + "</h3><p>" + dati[i].descrizione + "</p><p><strong>Indirizzo:</strong> " + dati[i].indirizzo + "</p><p><strong>Orari:</strong> " + dati[i].orari + "</p>");
-    linea2.push([dati[i].lat, dati[i].lon])
+    linea2.push([dati[i].lat, dati[i].lon])*/
+wayPoints.push(L.latLng(dati[i].lat, dati[i].lon));
 }
-L.polyline(linea2, { color: 'blue' }).addTo(mappa2);
+ L.Routing.control({
+    waypoints: wayPoints,
+    language:"it",
+    lineOptions: {
+        styles: [
+            { color: 'blue', weight: 5 }
+        ]
+    }
+}).addTo(mappa2)
+
+for(let i= 9; i<16; i++) {
+    let marker =L.marker([dati[i].lat,dati[i].lon]).addTo(mappa2);
+    marker.bindPopup( "<img src='" + dati[i].img + "' style='width:200px;'><h3>" + dati[i].nome + "</h3><p>" + dati[i].descrizione + "</p><p><strong>Indirizzo:</strong> " + dati[i].indirizzo + "</p><p><strong>Orari:</strong> " + dati[i].orari + "</p>");
+}
+/*L.polyline(linea2, { color: 'blue' }).addTo(mappa2);*/
 
 });
 
