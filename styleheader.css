@@ -90,7 +90,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 .fontimg{
-    animation: battito 2s infinite;
+    animation: battito 0.02s infinite;
 }
 @keyframes battito {
     0% {
@@ -110,6 +110,8 @@ nav ul li a:hover {
     }   
 
 }
+
+
 /* FOOTER */
 
 .site-footer {
@@ -205,25 +207,25 @@ ul li::before {
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 #Bigmap{
-    display:flex;
-
+justify-content: center;
 
 }
 #Bigmap > *{
-    margin: 2rem;
+    margin: 7rem;
+    justify-content: center;
+    padding-left: 2rem;
    
 }
 
-
 #mappa1{
     height:75vh;
-    width:50%;
+    width:80%;
 }
 
 
 #mappa2{
     height:75vh;
-    width:50%;
+    width:80%;
 }
 
 /* ANIMAZIONE */
@@ -250,24 +252,17 @@ h1{
     margin-bottom: 5px;
 }
 
+
 p{
     margin-top: 5px;
 }
 
-#keci {
+#keci{
     color: #2949B4;
-    font-size: xx-large;
-    font-weight: bold;
-     font-size: 50px;
-    text-align: center;
-    margin: 0 auto;
-    padding-left: 0.1em;
 }
 
 #baboni{
     color: #2949B4;
-    font-size: larger;
-    font-weight: bolder;
 }
 
 .fontimg{
