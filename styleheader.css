@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -12,7 +13,9 @@ body {
       background-image:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
                     url('fuoriclasse.webp');
 
+
 }
+
 
 /* MAIN */
 .percorsi-container {
@@ -26,6 +29,7 @@ body {
     margin: 0 auto;
     padding: 20px 40px;
 
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,14 +37,16 @@ body {
     text-align: center;
 }
 
+
 /* HEADER */
+
 
 .site-header {
     background-color: #2949B4;
-    position: sticky;
     top: 0;
     z-index: 1000;
 }
+
 
 .header-bar {
     max-width: 1200px;
@@ -51,10 +57,12 @@ body {
     align-items: center;
 }
 
+
 .logo-img {
     height: 90px;
     width: auto;
 }
+
 
 nav ul {
     display: flex;
@@ -63,6 +71,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
 
 nav ul li a {
     text-decoration: none;
@@ -77,9 +86,11 @@ nav ul li a {
     text-align: start;
 }
 
+
 nav ul li a:hover {
     background-color: #379bc2;
 }
+
 
 .hamburger {
     display: none;
@@ -97,7 +108,7 @@ nav ul li a:hover {
         transform: scale(1);
     }
     25%{
-      transform: scale(1.2); 
+      transform: scale(1.2);
     }
     50%{
         transform: scale(1);
@@ -107,12 +118,16 @@ nav ul li a:hover {
     }
     100% {
         transform: scale(1);
-    }   
+    }  
+
 
 }
 
 
+
+
 /* FOOTER */
+
 
 .site-footer {
     background-color: #2949B4;
@@ -121,7 +136,9 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+
 /* BOX SEZIONI */
+
 
 .section-box {
     background-color: #f4f6ff;
@@ -132,18 +149,22 @@ nav ul li a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .section-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
+
 /* LISTE */
+
 
 ul li {
     margin-bottom: 10px;
     position: relative;
     padding-left: 25px;
 }
+
 
 ul li::before {
     position: absolute;
@@ -153,7 +174,9 @@ ul li::before {
     top: 0;
 }
 
+
 /* CONTATTI */
+
 
 .contact-section {
     background-color: #e8ecff;
@@ -162,17 +185,21 @@ ul li::before {
     margin-top: 40px;
 }
 
+
 .contact-section h2 {
     margin-top: 0;
     color: #2949B4;
 }
+
 
 .contact-section p {
     margin: 5px 0;
     font-size: 16px;
 }
 
+
 /* IMMAGINI */
+
 
 .section-image {
     max-width: 100%;
@@ -180,13 +207,16 @@ ul li::before {
     margin-bottom: 20px;
 }
 
+
 /* HOME IMAGE */
+
 
 .home-image{
     width: 420px;
     max-width: 90%;
     margin-top: 5px;
     margin-bottom: 10px;
+
 
     animation: pulse3d 2.5s infinite ease-in-out;
     transform-style: preserve-3d;
@@ -202,12 +232,16 @@ ul li::before {
 
 
 
+
+
+
 .percorso:hover{    
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 #Bigmap{
 justify-content: center;
+
 
 }
 #Bigmap > *{
@@ -217,10 +251,13 @@ justify-content: center;
    
 }
 
+
 #mappa1{
     height:75vh;
     width:80%;
 }
+
+
 
 
 #mappa2{
@@ -228,67 +265,87 @@ justify-content: center;
     width:80%;
 }
 
+
 /* ANIMAZIONE */
 
+
 @keyframes pulse3d{
+
 
 0%{
 transform: scale(1) rotateY(0deg);
 }
 
+
 50%{
 transform: scale(1.06) rotateY(6deg);
 }
+
 
 100%{
 transform: scale(1) rotateY(0deg);
 }
 
+
 }
 
+
 /* TITOLI */
+
 
 h1{
     margin-bottom: 5px;
 }
 
 
+
+
 p{
     margin-top: 5px;
 }
+
 
 #keci{
     color: #2949B4;
 }
 
+
 #baboni{
     color: #2949B4;
 }
+
 
 .fontimg{
     padding: 0%;
     max-width: 400px;
 }
 
+
 /* RESPONSIVE */
 
+
 @media (max-width: 768px) {
+
 
 .section-box, .contact-section {
     padding: 20px;
 }
 
+
 .header-bar {
     padding: 15px 20px;
 }
+
 
 .logo-img {
     height: 65px;
 }
 
+
 .hamburger {
     display: block;
 }
+
 
 nav {
     position: fixed;
@@ -303,9 +360,11 @@ nav {
     box-shadow: -5px 0 15px rgba(0,0,0,0.25);
 }
 
+
 nav.open {
     right: 0;
 }
+
 
 nav ul {
     flex-direction: column;
@@ -314,9 +373,11 @@ nav ul {
     gap: 0;
 }
 
+
 nav ul li {
     width: 100%;
 }
+
 
 nav ul li a {
     display: block;
@@ -331,16 +392,23 @@ nav ul li a {
     border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
+
 nav ul li a:hover {
     background-color: #1f378c;
 }
+
 
 .main-content {
     padding: 20px;
 }
 
+
 .home-image{
     width: 300px;
 }
 
+
 }
+
+
+
