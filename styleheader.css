@@ -16,7 +16,11 @@ body {
 
 }
 
+.avv{
+    margin:0;
+    background-color:red;
 
+}
 /* MAIN */
 .percorsi-container {
     display: flex;
@@ -101,7 +105,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 .fontimg{
-    animation: battito 0.02s infinite;
+    animation: battito 1s infinite;
 }
 @keyframes battito {
     0% {
@@ -233,7 +237,39 @@ ul li::before {
 
 
 
+.avv {
+    background: linear-gradient(135deg, #2949B4, #379bc2);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(41, 73, 180, 0.3);
+    transition: all 0.25s ease;
 
+    display: inline-block;
+}
+
+/* HOVER */
+.avv:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(41, 73, 180, 0.4);
+    background: linear-gradient(135deg, #1f378c, #2f7fa3);
+}
+
+/* CLICK */
+.avv:active {
+    transform: scale(0.97);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* FOCUS (accessibilità) */
+.avv:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(55, 155, 194, 0.4);
+}
 
 .percorso:hover{    
     transform: translateY(-5px);
@@ -245,7 +281,7 @@ justify-content: center;
 
 }
 #Bigmap > *{
-    margin: 7rem;
+    margin: 7rem ;
     justify-content: center;
     padding-left: 2rem;
    
