@@ -25,14 +25,14 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <nav id="nav-menu">
 <ul id="menu">
 <li><a href="home.php"><strong>Home</strong></a></li>
-<li><a href="chisiamo.php"><strong>Chi Siamo</strong></a></li>
+<li><a href="chisiamo.php"><strong class="active">Chi Siamo</strong></a></li>
 <li><a href="percorsi.php"><strong>Percorsi</strong></a></li>
 </ul>
 </nav>
 
 </div>
 </header>
-
+<div class="strongman">
 <main class="main-content">
 
 <h1>Il nostro progetto</h1>
@@ -62,7 +62,43 @@ Approfondire la conoscenza del patrimonio culturale di Lodi.
 </div>
 
 </main>
-
+<div class="dady">
+    <h1>Chi siamo</h1>
+<div class="cont1">
+    <div>
+    <img src="keci.png" alt="">
+    <p class="section-box ">Barra di navigazione HTML + CSS
+Intestazione della pagina home
+Verificare e creare footer della pagina home
+Struttura grafica generale delle pagine
+</p>
+    </div>
+    <div>
+    <img src="denise.png" alt="">
+    <p class="section-box ">Creazione del file JSON
+File di testo per le tappe (.txt)
+Organizzazione dei dati che verranno mostrati sulla mappa
+Preparazione del codice base delle pagine in PHP</p>
+    </div>
+</div>
+<div class="cont2">
+    <div> <img src="rayane.png" alt="">
+    <p class="section-box ">Gestione dei comandi (gruppi di marcatori)
+Creazione dei popup dei marcatori
+Scelta e impostazione della tipologia di mappa (tile)
+File di testo per i percorsi</p>
+    </div>
+    <div>
+    <img src="manina.png" alt="">
+    <p class="section-box ">Barra di navigazione HTML + CSS
+Intestazione della pagina home
+Verificare e creare footer della pagina home
+Struttura grafica generale delle pagine
+</p>
+    </div>
+</div>
+</div>
+</div>
 <footer class="site-footer">
 <p>&copy; <?php echo $currentYear; ?> Fuoriclasse a Lodi</p>
 </footer>
