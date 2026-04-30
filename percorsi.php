@@ -42,14 +42,14 @@ crossorigin=""></script>
 <ul id="menu">
 <li><a href="home.php"><strong>Home</strong></a></li>
 <li><a href="chisiamo.php"><strong>Chi Siamo</strong></a></li>
-<li><a href="percorsi.php"><strong>Percorsi</strong></a></li>
+<li><a href="percorsi.php"><strong class="active">Percorsi</strong></a></li>
 </ul>
 </nav>
 
 </div>
 </header>
 
-<main class="main-content">
+<main class="main-contenta">
 
 <h1>Percorsi Disponibili</h1>
 
@@ -62,20 +62,24 @@ crossorigin=""></script>
 <p>Descrizione del primo percorso.</p>
 <p>Questo percorso ti permette di scoprire Lodi con una piacevole passeggiata tra le vie del centro storico, immergendoti nell'atmosfera della città. Lungo il tragitto potrai ammirare edifici storici e luoghi legati all'arte e alla tradizione locale, scoprendo la storia e la cultura del territorio. Allo stesso tempo, il percorso offre anche diverse occasioni per fermarsi e gustare piatti tipici della cucina italiana, rendendo la visita ancora più piacevole. È un itinerario perfetto per vivere la città con calma, tra cultura, storia e buon cibo.
 </p>
-<button class="avv" id="avv1">Avvia il percorso</button>
 
-</div>
+
 
     <div id="mappa1"></div>
+    <button class="avv" id="avv1" style="margin-top: 2rem;">Avvia il percorso</button>
+    </div>
+
       <div class="percorso">
 <h2>Percorso Artistico</h2>
 <p>Descrizione del secondo percorso.</p>
 <p>Questo percorso ti permette di esplorare Lodi nel cuore della città, unendo cultura, storia e buon cibo. Si snoda tra musei affascinanti, come quelli dedicati alla scienza, alla musica e all'arte sacra, e luoghi storici che raccontano la vita e le tradizioni locali. Lungo il tragitto ci sono anche diverse soste gastronomiche, perfette per assaporare piatti tipici italiani, e momenti di relax in caffè o bar dove fermarsi a godersi l'atmosfera della città. È un itinerario che invita a passeggiare con calma, scoprire storie interessanti e lasciarsi conquistare dai sapori e dai colori di Lodi.
 </p>
-<button class="avv" id="avv2">Avvia il percorso</button>
-</div>
+
 
     <div id="mappa2"></div>
+    <button class="avv" id="avv2"style="margin-top: 2rem;">Avvia il percorso</button>
+
+      </div>
 </div>
 
 
