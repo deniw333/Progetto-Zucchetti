@@ -31,7 +31,7 @@ xhr.addEventListener("load", () => {
     // ICONE
     const fantastici4 = L.icon({
         iconUrl: "marcatore.png",
-        iconSize: [90, 90],
+        iconSize: [120, 120],
         iconAnchor: [35, 70] 
     });
 
@@ -57,7 +57,7 @@ xhr.addEventListener("load", () => {
 
         L.marker([dati[i].lat, dati[i].lon], { icon: fantastici4 })
             .addTo(mappa1)
-            .bindPopup(`<h3>${dati[i].nome}</h3><img src="${dati[i].img}" style="width:200px;">`);
+            .bindPopup(`<h2>${dati[i].nome}</h2><p><strong>Descrizione:</strong> ${dati[i].descrizione}</p><p><strong>Indirizzo</strong>: ${dati[i].indirizzo}</p><p><strong>Orari:</strong> ${dati[i].orari}</p><img src="${dati[i].img}" style="width:200px;">`);
     }
 
     let control1 = L.Routing.control({
@@ -86,7 +86,8 @@ xhr.addEventListener("load", () => {
 
         L.marker([dati[i].lat, dati[i].lon],{ icon: fantastici4 })
             .addTo(mappa2)
-            .bindPopup(`<h3>${dati[i].nome}</h3>`);
+            .bindPopup(`<h2>${dati[i].nome}</h2><p><strong>Descrizione:</strong> ${dati[i].descrizione}</p><p><strong>Indirizzo</strong>: ${dati[i].indirizzo}</p><p><strong>Orari:</strong> ${dati[i].orari}</p><img src="${dati[i].img}" style="width:200px;">`);
+
     }
 
     let control2 = L.Routing.control({
