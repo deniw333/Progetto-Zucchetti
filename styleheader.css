@@ -15,11 +15,41 @@ body {
 
 
 }
-
+.cont1,.cont2{
+    display: flex;
+    gap: 2rem;    
+}
+.cont1 >div> img,
+.cont2  >div >img{
+    width: 45%; /* Due foto per riga, quasi metà larghezza l'una */
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px; /* Un tocco di stile */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.cont1 img:hover, .cont2 img:hover {
+    transform: scale(1.05); /* Effetto zoom al passaggio del mouse */
+}
+.cont1{
+    padding-bottom: 1rem;
+}
 .avv{
     margin:0;
     background-color:red;
 
+}
+.dady {
+    flex: 1; /* Prende meno spazio del testo */
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra il titolo "Chi siamo" e i blocchi foto */
+}.strongman{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 5rem;
 }
 /* MAIN */
 .percorsi-container {
@@ -32,15 +62,25 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 40px;
-
-
+    display: flex;
+    margin-bottom: 17rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+.main-contenta {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
 }
 
+.active{
+    color: #379bc2;
+}
 
 /* HEADER */
 
@@ -232,6 +272,7 @@ ul li::before {
     border-radius: 8px;
     margin-bottom: 25px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 85%;
 }
 
 
@@ -290,7 +331,7 @@ justify-content: center;
 
 #mappa1{
     height:75vh;
-    width:80%;
+    width:95%;
 }
 
 
@@ -298,7 +339,7 @@ justify-content: center;
 
 #mappa2{
     height:75vh;
-    width:80%;
+    width:95%;
 }
 
 
