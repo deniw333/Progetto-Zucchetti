@@ -24,7 +24,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         
         <nav id="nav-menu">
             <ul id="menu">
-                 <li><a href="home.php"><strong>Home</strong></a></li>
+                 <li><a href="home.php"><strong class="active">Home</strong></a></li>
                 <li><a href="chisiamo.php"><strong>Chi Siamo</strong></a></li>
                 <li><a href="percorsi.php"><strong>Percorsi</strong></a></li>
             </ul>
