@@ -14,6 +14,7 @@
     "nome": "Castello Visconteo",
     "descrizione": "Storico castello vicino Piazza della Vittoria",
     "indirizzo": "Centro storico, Lodi",
+    "orari": "Sede della Questura; visitabile esternamente o durante eventi",
     "lat": 45.31348,
     "lon": 9.50198,
     "img": "CastelloVisconteo.jpg"
@@ -23,8 +24,9 @@
     "nome": "Museo della Stampa d'Arte Andrea Schiavi",
     "descrizione": "Museo dedicato alla storia della stampa",
     "indirizzo": "Via della Costa 4, Lodi",
-    "lat": 45.31420,
-    "lon": 9.50500,
+    "orari": "Lun–Ven 09:30–12:30; Sab 10:00–12:30 & 15:00–17:30; Dom chiuso",
+    "lat": 45.3142,
+    "lon": 9.505,
     "img": "museo-della-stampa-darte-andrea-schiavi.jpg"
   },
   {
@@ -32,8 +34,9 @@
     "nome": "Museo Ettore Archinti",
     "descrizione": "Museo con collezioni artistiche e culturali",
     "indirizzo": "Viale Pavia 26, Lodi",
-    "lat": 45.31200,
-    "lon": 9.50450,
+    "orari": "Sab-Dom 16:00–19:00; feriali su prenotazione",
+    "lat": 45.312,
+    "lon": 9.5045,
     "img": "archinti.jpg"
   },
   {
@@ -41,8 +44,9 @@
     "nome": "Museo d'Arte Contemporanea Folligeniali",
     "descrizione": "Museo dedicato all'arte contemporanea",
     "indirizzo": "Via Marescalca 2, Lodi",
-    "lat": 45.31190,
-    "lon": 9.50280,
+    "orari": "Lun-Ven 10:00–12:00 & 14:30–17:00",
+    "lat": 45.3119,
+    "lon": 9.5028,
     "img": "follegiali.jpg"
   },
   {
@@ -50,8 +54,9 @@
     "nome": "Ristorante Fuori Modena",
     "descrizione": "Ristorante nel centro storico",
     "indirizzo": "Centro storico, Lodi",
-    "lat": 45.31400,
-    "lon": 9.50280,
+    "orari": "Mar-Sab 12:00–14:30 & 19:30–22:30; Dom 12:00–15:00; Lun chiuso",
+    "lat": 45.314,
+    "lon": 9.5028,
     "img": "ristorante-fuori-modena.jpg"
   },
   {
@@ -59,8 +64,9 @@
     "nome": "Pizzeria Armandino",
     "descrizione": "Pizzeria nel centro di Lodi",
     "indirizzo": "Centro, Lodi",
-    "lat": 45.31410,
-    "lon": 9.50290,
+    "orari": "Lun-Sab 11:30–14:30 & 18:30–23:00 (Mer chiuso); Dom 18:30–23:00",
+    "lat": 45.3141,
+    "lon": 9.5029,
     "img": "pizzeria-armandino.jpg"
   },
   {
@@ -68,8 +74,9 @@
     "nome": "901 Bistrot",
     "descrizione": "Bistrot nel centro storico",
     "indirizzo": "Centro storico, Lodi",
+    "orari": "Lun-Sab 07:30–21:00; Dom chiuso",
     "lat": 45.31405,
-    "lon": 9.50300,
+    "lon": 9.503,
     "img": "901-bistrot.jpg"
   },
   {
@@ -77,8 +84,9 @@
     "nome": "Ristorante Alta Marea",
     "descrizione": "Ristorante nel centro storico",
     "indirizzo": "Centro storico, Lodi",
-    "lat": 45.31410,
-    "lon": 9.50310,
+    "orari": "Mar-Dom 12:00–14:30 & 19:30–23:00; Lun chiuso",
+    "lat": 45.3141,
+    "lon": 9.5031,
     "img": "ristorante-alta-marea.jpg"
   },
   {
@@ -86,6 +94,7 @@
     "nome": "Albergo Anelli",
     "descrizione": "Hotel vicino al centro di Lodi",
     "indirizzo": "Viale Cesare Vignati 7, 26900 Lodi",
+    "orari": "Aperto 24h",
     "lat": 45.31052,
     "lon": 9.50033,
     "img": "albergo-anelli.jpg"
@@ -95,8 +104,9 @@
     "nome": "Museo Paolo Gorini",
     "descrizione": "Museo dedicato allo scienziato Paolo Gorini",
     "indirizzo": "Via Agostino Bassi 1, Lodi",
+    "orari": "Mer 10:00–12:00; Sab 09:30–12:30; Dom 14:30–16:30",
     "lat": 45.31302,
-    "lon": 9.50370,
+    "lon": 9.5037,
     "img": "museo-paolo-gorini.jpg"
   },
   {
@@ -104,6 +114,7 @@
     "nome": "Museo dello Strumento Musicale e della Musica",
     "descrizione": "Museo dedicato agli strumenti musicali",
     "indirizzo": "Via Carlo Besana 8, Lodi",
+    "orari": "Festivi 14:00–16:00 & 20:00–22:00; feriali su prenotazione",
     "lat": 45.31429,
     "lon": 9.50342,
     "img": "museo-dello-strumento-musicale-e-della-musica.jpg"
@@ -113,8 +124,9 @@
     "nome": "La Petite Mondina",
     "descrizione": "Ristorante zona Est/Nord-Est di Lodi",
     "indirizzo": "Lodi",
-    "lat": 45.31550,
-    "lon": 9.51680,
+    "orari": "Lun-Mar 12:00–14:30; Mer-Dom 12:00–14:30 & 19:30–23:00",
+    "lat": 45.3155,
+    "lon": 9.5168,
     "img": "la-petite-mondina.jpg"
   },
   {
@@ -122,8 +134,9 @@
     "nome": "Ristorante Al Sazio",
     "descrizione": "Ristorante nel centro storico",
     "indirizzo": "Centro storico, Lodi",
-    "lat": 45.31390,
-    "lon": 9.50250,
+    "orari": "Lun-Sab 12:00–15:00 & 19:00–00:00; Dom chiuso",
+    "lat": 45.3139,
+    "lon": 9.5025,
     "img": "ristorante-al-sazio.jpg"
   },
   {
@@ -131,6 +144,7 @@
     "nome": "Centro storico di Lodi",
     "descrizione": "Piazza della Vittoria e dintorni",
     "indirizzo": "Centro storico, Lodi",
+    "orari": "Sempre accessibile (area pubblica)",
     "lat": 45.31439,
     "lon": 9.50269,
     "img": "centro-storico-di-lodi.jpg"
@@ -140,8 +154,9 @@
     "nome": "Museo Diocesano d’Arte Sacra",
     "descrizione": "Museo di arte religiosa",
     "indirizzo": "Via Cavour 31, Lodi",
-    "lat": 45.31470,
-    "lon": 9.50330,
+    "orari": "Dom 15:30–17:30; altri giorni su prenotazione",
+    "lat": 45.3147,
+    "lon": 9.5033,
     "img": "museo-diocesano-darte-sacra.jpg"
   },
   {
@@ -149,8 +164,9 @@
     "nome": "Bar Cavour",
     "descrizione": "Bar nel centro storico",
     "indirizzo": "Centro storico, Lodi",
-    "lat": 45.31470,
-    "lon": 9.50340,
+    "orari": "Lun-Sab 07:00–21:00; Dom 08:00–20:00",
+    "lat": 45.3147,
+    "lon": 9.5034,
     "img": "bar-cavour.jpg"
   }
 ]
