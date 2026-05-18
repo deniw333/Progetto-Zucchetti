@@ -65,32 +65,41 @@ Approfondire la conoscenza del patrimonio culturale di Lodi.
 <div class="dady">
     <h1>Chi siamo</h1>
 <div class="cont1">
-    <div>
+    <div class="section-box">
+        
+        <h3> Keci Muharrem</h3>
     <img src="keci.png" alt="">
-    <p class="section-box ">Barra di navigazione HTML + CSS
+    <p >Barra di navigazione HTML + CSS
 Intestazione della pagina home
 Verificare e creare footer della pagina home
 Struttura grafica generale delle pagine
 </p>
     </div>
-    <div>
+    <div class="section-box">
+        
+        <h3 >Denise Fonti</h3>
     <img src="denise.png" alt="">
-    <p class="section-box ">Creazione del file JSON
+    <p >Creazione del file JSON
 File di testo per le tappe (.txt)
 Organizzazione dei dati che verranno mostrati sulla mappa
 Preparazione del codice base delle pagine in PHP</p>
     </div>
 </div>
 <div class="cont2">
-    <div> <img src="rayane.png" alt="">
-    <p class="section-box ">Gestione dei comandi (gruppi di marcatori)
+    <div class="section-box">
+        
+            <h3>Rayane Baboni</h3>
+         <img src="rayane.png" alt="">
+    <p >Gestione dei comandi (gruppi di marcatori)
 Creazione dei popup dei marcatori
 Scelta e impostazione della tipologia di mappa (tile)
 File di testo per i percorsi</p>
     </div>
-    <div>
+    <div class="section-box">
+        
+        <h3  >Antonio Manini</h3>
     <img src="manina.png" alt="">
-    <p class="section-box ">Barra di navigazione HTML + CSS
+    <p >Barra di navigazione HTML + CSS
 Intestazione della pagina home
 Verificare e creare footer della pagina home
 Struttura grafica generale delle pagine
